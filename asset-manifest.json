@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/walmart/static/css/main.c6c91627.css",
+    "main.js": "/walmart/static/js/main.e3fea1b5.js",
+    "static/media/locationB.png": "/walmart/static/media/locationB.e1c796b4cac24766f4ec.png",
+    "static/media/location.png": "/walmart/static/media/location.9c935a12e076294939e9.png",
+    "static/media/cart.png": "/walmart/static/media/cart.6d3f2aa5a426dcbe59c3.png",
+    "static/media/2.jpg": "/walmart/static/media/2.e6d8ff4df9ad3f9c31e0.jpg",
+    "static/media/profile.png": "/walmart/static/media/profile.dfcbd0f3ddb1f83af8ea.png",
+    "static/media/gal2-grid-3.jpg": "/walmart/static/media/gal2-grid-3.8d5210dbcc09a6ec2053.jpg",
+    "static/media/profile-head.png": "/walmart/static/media/profile-head.dfb2fe43dbff70fe7d30.png",
+    "static/media/5.jpg": "/walmart/static/media/5.380453c297ccbd78be18.jpg",
+    "static/media/gal2-grid-1.jpg": "/walmart/static/media/gal2-grid-1.f97528105269541d4f7e.jpg",
+    "static/media/4.jpg": "/walmart/static/media/4.fab0eafce18c589d74e8.jpg",
+    "static/media/fillstar.png": "/walmart/static/media/fillstar.888a6aced15e933667d2.png",
+    "static/media/10.jpg": "/walmart/static/media/10.f208e555e8e39c360b53.jpg",
+    "static/media/nostar.png": "/walmart/static/media/nostar.2ce738c84fa1fe7ee089.png",
+    "static/media/1.jpg": "/walmart/static/media/1.c38bca0c22bd33595f32.jpg",
+    "static/media/9.jpg": "/walmart/static/media/9.14104f1435b51a01d5e1.jpg",
+    "static/media/revicons.eot": "/walmart/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/walmart/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/gal2-grid-2.jpg": "/walmart/static/media/gal2-grid-2.6e0a400c038762e6dc75.jpg",
+    "static/media/revicons.woff": "/walmart/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/walmartLogo.svg": "/walmart/static/media/walmartLogo.d6ea228a23740ffc7649a5fd061c0a48.svg",
+    "static/media/signin.svg": "/walmart/static/media/signin.ecadaa129702e7e88ffc736bc8183c8a.svg",
+    "static/media/serviceLogo.svg": "/walmart/static/media/serviceLogo.01344e76d823e79b91306f637a5fc783.svg",
+    "index.html": "/walmart/index.html",
+    "static/media/heart .svg": "/walmart/static/media/heart .3def643c9c073603cd2058f2ba99396f.svg",
+    "static/media/department.svg": "/walmart/static/media/department.80ca327f127e8e02a99320cc59c90367.svg",
+    "static/media/search.svg": "/walmart/static/media/search.08bdbec3fd9f2e8903734e18445d3672.svg",
+    "main.c6c91627.css.map": "/walmart/static/css/main.c6c91627.css.map",
+    "main.e3fea1b5.js.map": "/walmart/static/js/main.e3fea1b5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c6c91627.css",
+    "static/js/main.e3fea1b5.js"
+  ]
+}
