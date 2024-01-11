@@ -1,7 +1,7 @@
 {
   "name": "walmart3",
   "version": "0.1.0",
-  "homepage": "https://VKIDS2004.github.io/walmart-chandru",
+  "homepage": "https://chandrakumarv.github.io/walmart",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",

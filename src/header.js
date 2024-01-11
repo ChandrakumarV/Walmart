@@ -28,7 +28,7 @@ function Header({ search, setsearch, cartitems, cartprice,curUser }) {
       </div>
 
       <div className="services header-dep-ser mquery">
-      <img src={serrvicelogo} style={{width:"23px",fill:"white"}}/>
+        <img src={serrvicelogo} style={{width:"23px",fill:"white"}}/>
         <p className="dep-ser-p">Services</p>
       </div>
 
@@ -43,10 +43,10 @@ function Header({ search, setsearch, cartitems, cartprice,curUser }) {
       </div>
 
       <div className='myOrder mquery myitems'>
-      <img src={heartlogo} className="order-logo" style={{width:"20px"}} />
+        <img src={heartlogo} className="order-logo" style={{width:"20px"}} />
         <div className="order-list">
           <p>Reorder</p>
-          <p>My Items</p>
+          <p>MyItems</p>
         </div>
       </div>
       {curUser?<Link to="/profile" className='profile-com'>

@@ -16,6 +16,7 @@ import {
   Link,
   useParams,
   Navigate,
+  useNavigate
 } from "react-router-dom";
 import Cart from "./cart";
 import Signin from "./signin";
@@ -92,7 +93,7 @@ function App() {
 
   return (
     <>
-      <Router basename="/walmart-chandru">
+      <Router basename="/walmart">
         <div className="hole_content">
 
         <Header
@@ -265,12 +266,23 @@ function Productpage({ item,settitle,cartitem,addcartitem,removecartitem}) {
   const [imachange,setimgchange] = useState(item.img)
   const [isoncart, setisoncart] = useState(false);
 
-
+  const navi = useNavigate();
 
   function handlebtn() {
-    isoncart ? removecartitem(item) : addcartitem(item);
-    setisoncart((i) => !i);
+    let curuser = JSON.parse(localStorage.getItem("curuser"))
+    if(curuser){
+      isoncart ? removecartitem(item) : addcartitem(item);
+      setisoncart((i) => !i);
+    }
+    else{
+      alert("Please signin first")
+      navi('/signin')
+    }
   }
+  // function handlebtn() {
+  //   isoncart ? removecartitem(item) : addcartitem(item);
+  //   setisoncart((i) => !i);
+  // }
 
   useEffect(()=>{
     window.scrollTo(200,0);

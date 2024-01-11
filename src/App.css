@@ -805,9 +805,17 @@
   background-color: beige;
 }
 
+/* 
+p{
+  width: 1000px;
+  grid-template-columns: repeat(auto-fill,100px); //divide a total space (1000/100)
+  grid-template-columns: repeat(auto-fit ,100px); //elimate a extract space (1000-())
+} */
+
 /* ---------------------------------- Readmore text ------------- */
 .readmoretext{
   max-width: 1600px;
+  padding: 20px;
   margin: 0 auto;
   text-align: center;
   margin-bottom: 50px;
@@ -857,12 +865,16 @@
   font-size: 15px;
   max-width: 1600px;
   margin: 0 auto;
-  color: white;
+  color: white !important;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
   line-height: 10px;
+}
+
+.footcon .footlist a{
+  color: white !important;
 }
 .footcon .footlist a:hover {
   cursor: pointer;
